@@ -247,12 +247,13 @@ main {
     .sign-2:hover {opacity: 0.6}
 }
 
+/* Footer */
 footer {
+  height: 150px;
   display: flex;
  
-
   .box-7 {
-    height: 200px;
+    height: 150px;
     width: 50%;
     display: flex;
     align-items: center;
@@ -262,7 +263,8 @@ footer {
   }
 
   .box-8 {
-    height: 200px;
+    height: 150px;
+    width: 50%;
     object-fit: cover;
     width: 30%;
     cursor: pointer;
@@ -276,23 +278,127 @@ footer {
   }
 
   .nav p {
-    margin-top: 10px;
+    font-size: 0.9em;
+    opacity: 0.8;
   }
 
-  .nav img {
-    width: 20px;
-    height: 20px;
-    display: flex;
-    margin: 30px;
-    cursor: pointer;
+  .icon img {
+    width: 70%;
+    height: 70%;
+    margin-bottom: -100px;
+    margin-left: 700px;
   }
-  
-  .nav img {
-    margin-left: 300px;
-    width: 10%;
-    height: 10%;
-  }  
+
+  .icon {
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social {
+    display: flex;
+    gap: 10px;
+  }
 }
+
+
+/* mobile */
+@media (max-width: 500px) {
+  .header {
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+
+  .section-1 {
+    height: 800px;
+    justify-content: center;
+  }
+
+  .container-1 {
+    flex-direction: column;
+    width: 350px;
+    height: 300px;
+    font-size: 30px;
+  }
+
+  .container-1 .input {
+    flex-direction: column;
+    width: 350px;
+    height: 50px;
+    font-size: 25px;
+  }
+
+  .container-1 .sign-2 {
+    margin-top: 15px;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 50px;
+    font-size: 25px;
+  }
+
+  .section-2 {
+    height: 700px;
+    width: auto;
+    align-items: flex-start;
+  }
+
+  .container-2 {
+    margin-top: 180px;
+    flex-direction: column;
+    width: 350px;
+    height: 300px;
+    font-size: 20px;
+  }
+
+  .content-3 {
+    flex-direction: column;
+    display: flex;
+    height: 100px;
+    width: 100%;
+  }
+
+  .section content-3 {
+    width: 350px;
+    height: 600px;
+    font-size: 20px;
+  }
+
+}
+
+
+
+
+// header p {
+//   text-align: center;
+// }
+
+
+//   header .content_bottom {
+//       flex-direction: column;
+//   }
+
+//   header .content_bottom > * {
+//       width: 100% !important;
+//   }
+
+//   header p {
+//       text-align: justify;
+//   }
+
+//   article {
+//       width: 100% !important;
+//   }
+// }
+
+
 
 
 
