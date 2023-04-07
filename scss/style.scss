@@ -34,8 +34,7 @@ header {
   .sign:hover {opacity: 0.6}
 }
 
-
-.section-1 {
+.info {
   background: url(../images/bg-masthead.jpg);
   background-size: cover;
   background-position: center;
@@ -45,7 +44,7 @@ header {
   display: flex;
 
 
-  .container-1 {
+  .information {
     text-align: center;
     margin: auto;
   }
@@ -69,8 +68,13 @@ header {
     opacity: 1;
     transition: 0.3s;
   }
-  .sign-2:hover {opacity: 0.6}
+  .sign-2:hover {opacity: 0.8}
+
+  // &:hover {opacity: 0.8}
 }
+
+
+
 
 .section-2 {
   width: 100%;
@@ -212,7 +216,12 @@ main {
   }
 }
 
-.section-4 {
+
+
+
+
+
+.info-1 {
   background: url(../images/bg-masthead.jpg);
   background-size: cover;
   background-position: center;
@@ -222,7 +231,7 @@ main {
   display: flex;
 
 
-  .container-4 {
+  .information-1 {
     text-align: center;
     margin: auto;
   }
@@ -247,8 +256,9 @@ main {
     transition: 0.3s;
   }
     .sign-2:hover {opacity: 0.6}
-}
 
+    // &:hover {opacity: 0.6}
+}
 
 footer {
   display: flex;
