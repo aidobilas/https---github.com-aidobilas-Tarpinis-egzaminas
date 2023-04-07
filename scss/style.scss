@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,400;1,700&display=swap');
 
 $blue: #007bff;
+$silver: #f8f9fa;
 $font1: lato;
 
 * {
@@ -76,20 +77,23 @@ header {
 
 
 
-.section-2 {
-  width: 100%;
-  height: 300px;
-  line-height: 25px;
+.section {
   display: flex;
+  justify-content: space-between;
+  max-width: 1200%;
+  width: 100%;
+  line-height: 25px;
+  margin: auto;
 
-  .container-2 {
+  .container {
+    display: flex;
+    max-width: 1200%;
     width: 100%;
     height: 300px;
-    display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
-    background: #f8f9fa;
+    background: $silver;
     gap: 50px;
   }
 
@@ -97,10 +101,9 @@ header {
     margin-bottom: 10px;
   }
 
-  img {
-    height: 70px;
-    width: 70px;
-    margin-bottom: 10px;
+  i {
+    color: $blue;
+    margin-bottom: 40px;
     cursor: pointer;
   }
 }
@@ -275,8 +278,9 @@ footer {
   
   .social {
     display: flex;
+    align-items: center;
     gap: 15px;
-    width: 80px;
+    width: 100px;
     height: 30px;
     cursor: pointer;
   }
