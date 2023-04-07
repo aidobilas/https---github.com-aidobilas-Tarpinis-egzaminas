@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200%;
+    height: 50px;
+    margin: auto;
+    
+    .sign {
+      width: 60px;
+      height: 30px;
+      background: $blue;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      opacity: 1;
+      transition: 0.3s;
+    }
+    .sign:hover {opacity: 0.6}
+  }

@@ -1,0 +1,26 @@
+
+.opinion {
+    display: flex;
+    max-width: 1200%;
+    width: 100%;
+    background: $silver;
+    line-height: 25px;
+  
+    .people {
+      display: flex;
+      width: 100%;
+      height: 350px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+    }
+  
+    img {
+      height: 150px;
+      width: 150px;
+      margin-bottom: 10px;
+      border-radius: 100%;
+      cursor: pointer;
+    }
+  }

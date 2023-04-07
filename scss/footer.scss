@@ -1,0 +1,38 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200%;
+    height: 120px;;
+    margin: auto;
+  
+    i {
+      color: $blue;
+    }
+    
+    .social {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      width: 100px;
+      height: 30px;
+      cursor: pointer;
+    }
+  
+    a {
+      text-decoration: none;
+      font-size: 18px;
+      color: $blue;
+    }
+  
+    span {
+      margin: 10px;
+    }
+  
+    p {
+      margin-top: 5px;
+      font-size: 15px;
+    }
+  }
+  

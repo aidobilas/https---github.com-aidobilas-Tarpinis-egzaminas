@@ -1,0 +1,17 @@
+.container-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1200%;
+    width: 100%;
+    height: 507px;
+  
+    .content-1 {
+      margin: auto;
+      line-height: 25px;
+      margin-left: 100px;
+    }
+  
+    h2 {
+      margin-bottom: 15px;
+    }
+  }
