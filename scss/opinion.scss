@@ -24,3 +24,13 @@
       cursor: pointer;
     }
   }
+
+  @media (max-width: 768px){
+    .people {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 300px;
+      margin-bottom: 300px;
+    } 
+  }

@@ -28,3 +28,17 @@
       cursor: pointer;
     }
   }
+
+  @media (max-width: 768px){
+    .section {
+      background-color: #f8f9fa;
+    }
+  
+    .theme {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 200px;
+      margin-bottom: 200px;
+    } 
+  }
